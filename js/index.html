@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zucks Travel Agent's</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#package">Our Package</a></li>
+                <li><a href="#contact">Call Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h1>Zucks Travel Agent's</h1>
+        <p>Your happiness is our happiness</p>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="https://www.wcu.edu/_images/news/odaibaintokyo.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://www.smu.edu.sg/sites/default/files/campus-life/main-image-student-care.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://blogs.flinders.edu.au/student-exchange-experiences/wp-content/uploads/sites/20/2020/07/Photo-4-An-exchange-student-trip-to-the-Cameron-Highlands-Sarah-Walsh.jpg" style="width:100%">
+            </div>
+        </div>
+        <div class="testimonial">
+            <blockquote>"Liburan bersama teman jadi menyenangkan bersama Travel Agentku."</blockquote>
+            <cite>Dzaky Renaldy<br>Mahasiswa, 20</cite>
+        </div>
+    </section>
+
+    <section id="package" class="packages">
+        <h2>Our Package</h2>
+        <p>Berikut ini adalah beberapa paket liburan paling populer di Zucks Travel</p>
+        <ul>
+            <li>Singapore Adventure, 5 hari 4 malam + Free ticket to Singapore Zoo.</li>
+            <li>Journey to Malaysia, 4 hari 3 malam + Kuala Lumpur Night Bus Tour.</li>
+            <li>Rendevouz With Japan, 1 Minggu Full + Tokyo Disneyland and Universal Japan.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Sales Zucks akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+        <form id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="interest">What are you interested in?</label>
+            <select id="interest" name="interest" required>
+                <option value="">Select option</option>
+                <option value="package1">Singapore Adventure</option>
+                <option value="package2">Journey to Malaysia</option>
+                <option value="package3">Rendevouz With Japan</option>
+            </select>
+
+            <button type="submit">SEND</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
